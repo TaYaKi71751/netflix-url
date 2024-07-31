@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+		"icons": {
+			"128": "icon.png"
+		},
+  "name": "Netflix URL",
+  "version": "1.0.0",
+  "description": "Change url to share",
+  "content_scripts": [
+    {
+      "matches": ["*://netflix.com/*"],
+      "js": ["url.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
+
