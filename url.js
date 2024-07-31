@@ -10,7 +10,7 @@
 			}
 		});
 		if(jbv == undefined || !jbv.length) return;
-		window.history.pushState('', '', `/title/${jbv}`);
+		window.history.pushState('', '', `/us/title/${jbv}`);
 	};
 			const events = Object.keys(document.__proto__.__proto__).reduce((arr, event)=> { // https://stackoverflow.com/questions/39963850/how-can-i-add-an-event-listener-for-all-events-in-javascript-without-listing-the
 				if(event.startsWith('on')) return [...arr, event.substr(2)];
