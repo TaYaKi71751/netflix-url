@@ -4,7 +4,7 @@
 			"128": "icon.png"
 		},
   "name": "Netflix URL Fix",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Replace www.netflix.com/browse?jbv=* or www.netflix.com/title/* to www.netflix.com/us/title/*",
   "content_scripts": [
     {
