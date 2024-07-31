@@ -19,7 +19,17 @@
 		if(document.location.pathname.startsWith('/title')){
 			let jbv = undefined;
 			document.location.pathname.split('/').forEach((str) => {
-				if(str.length && (str.match(/^[0-9]+$/)[0] == str)){
+				if(
+					str.length &&
+					(() => {
+						let result = str.match(/^[0-9]+$/);
+						if(result == null || !result.length){
+							return [undefined];
+						} else {
+							return result;
+						}
+					})()[0] == str
+				){
 					jbv = str;
 				}
 			});
