@@ -5,7 +5,7 @@
 		},
   "name": "Netflix URL",
   "version": "1.0.0",
-  "description": "Change url to share",
+  "description": "Change netflix url to share",
   "content_scripts": [
     {
       "matches": ["*://netflix.com/*"],
