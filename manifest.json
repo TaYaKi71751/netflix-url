@@ -8,7 +8,7 @@
   "description": "Change netflix url to share",
   "content_scripts": [
     {
-      "matches": ["*://netflix.com/*"],
+      "matches": ["*://netflix.com/*","*://www.netflix.com/*"],
       "js": ["url.js"],
       "run_at": "document_start"
     }
