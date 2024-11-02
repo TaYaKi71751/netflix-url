@@ -1,11 +1,7 @@
 
 (async () => {
 	const setUrl = async () => {
-		if(
-			!document.location.pathname.startsWith('/browse') &&
-		 !document.location.pathname.startsWith('/title')
-		) return;
-		if(document.location.pathname.startsWith('/browse')){
+		if(!document.location.pathname.startsWith('/title')){
 			let jbv = undefined;
 			// https://stackoverflow.com/questions/824349/how-do-i-modify-the-url-without-reloading-the-page
 			(new URL(document.location)).searchParams.forEach((value,key) => {
