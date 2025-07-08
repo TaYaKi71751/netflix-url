@@ -1,0 +1,10 @@
+{
+    "extension_name": {
+        "message": "FixFlixURL",
+        "description": "FixFlixURL"
+    },
+    "extension_description": {
+        "message": "Replace www.netflix.com/browse?jbv=* or www.netflix.com/title/* to www.netflix.com/us/title/*",
+        "description": "Replace www.netflix.com/browse?jbv=* or www.netflix.com/title/* to www.netflix.com/us/title/*"
+    }
+}
